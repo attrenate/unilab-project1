@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="sign-in.css">
+
+</head>
+<body>
+    <div class="login-container" id="login-page-container">
+        <div class="main-content-frame" id="main-content-frame">
+            <div class="login-form-area" id="login-form-area">
+                <div class="header-section" id="header-section">
+                    <p class="welcome-back-text" id="welcome-message">Welcome Back</p>
+                    <p class="signup-prompt-text" id="signup-prompt">
+                        Don’t have an account? <a href="sign-up.html">Sign Up</a>
+                    </p>
+                </div>
+                <div class="form-and-social-section" id="form-and-social-section">
+                    <div class="input-fields-area" id="input-fields-area">
+                        <div class="input-wrapper email-input-wrapper" id="email-input-wrapper">
+                            <input type="email" id="email-input" placeholder=" " required>
+                            <label for="email-input" class="placeholder-label" id="email-placeholder-label">Email</label>
+                        </div>
+                        <div class="input-wrapper password-input-wrapper" id="password-input-wrapper">
+                             <input type="password" id="password-input" placeholder=" " required>
+                             <label for="password-input" class="placeholder-label" id="password-placeholder-label">Password</label>
+                            <button type="button" class="icon-container password-visibility-icon-container" id="password-visibility-toggle" aria-label="Toggle password visibility">
+                                <span class="icon-placeholder" id="password-visibility-icon">👁️</span>
+                            </button>
+                        </div>
+                         <div class="forgot-password-wrapper" id="forgot-password-link-wrapper">
+                            <a href="#" class="forgot-password-link" id="forgot-password-link">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <button type="submit" class="button button-primary login-button" id="login-button">
+                        <span class="button-text login-button-text" id="login-button-text">Login</span>
+                    </button>
+                    <div class="separator-social-section" id="separator-and-social-logins">
+                        <div class="or-separator-container" id="or-separator-container">
+                            <div class="separator-line" id="or-separator-line-left"></div>
+                            <span class="or-text" id="or-separator-text">or</span>
+                            <div class="separator-line" id="or-separator-line-right"></div>
+                        </div>
+                        <div class="social-buttons-container" id="social-login-buttons-container">
+                            <button type="button" class="button button-social google-signin-button" id="google-signin-button">
+                                <div class="icon-container google-icon-container" id="google-icon-container">
+                                    <div class="icon-placeholder google-icon-placeholder">G</div>
+                                </div>
+                                <span class="button-text social-button-text" id="google-signin-text">Continue with Google</span>
+                            </button>
+                            <button type="button" class="button button-social apple-signin-button" id="apple-signin-button">
+                                 <div class="icon-container apple-icon-container" id="apple-icon-container">
+                                     <div class="icon-placeholder apple-icon-placeholder"><img src="C:\Users\User\Desktop\unilab-photos\Apple - Original.png" alt="apple-log"></div>
+                                 </div>
+                                <span class="button-text social-button-text" id="apple-signin-text">Continue with Apple</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="sign.js"></script>
+</body>
+</html>
