@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> <title>Product Detail - SHOP.CO</title> </head>
+<body>
+    <aside id="mobile-sidebar" class="sidebar">
+        <div class="sidebar-header">
+             <button id="sidebar-close-btn" aria-label="Close Menu">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <line x1="18" y1="6" x2="6" y2="18"></line> <line x1="6" y1="6" x2="18" y2="18"></line> </svg>
+             </button>
+        </div>
+        <nav class="sidebar-nav">
+             <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li class="menu-item-has-children"> <a href="#">Services</a> <span class="caret-down">▼</span> </li>
+                 <li class="menu-item-has-children"> <a href="#">Pages</a> <span class="caret-up">▲</span>
+                     <ul class="sub-menu pages-submenu active">
+                         <li><a href="#">Privacy Policy</a></li>
+                         <li><a href="#">About Company</a></li>
+                         <li><a href="#">Payment Gateway</a></li>
+                         <li><a href="#">Terms & Conditions</a></li>
+                     </ul>
+                 </li>
+                  <li><a href="#">Shop</a></li>
+                 <li><a href="#">Testimonials</a></li>
+             </ul>
+        </nav>
+        <div class="sidebar-footer"> <button class="sidebar-button">Sign Up Now</button> </div>
+    </aside>
+    <div id="sidebar-overlay" class="overlay"></div>
+
+    <header>
+        <div id="promo-wrapper">
+            <div></div>
+            <div id="promo">
+                <p id="promo-p">Sign up and get 20% off to your first order. <span id="underlined"> Sign Up Now</span></p>
+            </div>
+            <div>
+                <img src="C:\Users\User\Desktop\unilab-photos\Vector.png" alt="Close Promo"> </div>
+        </div>
+
+        <nav id="header-bar">
+            <div class="header-bart-items">
+                 <button id="mobile-menu-btn" class="hamburger" aria-label="Open Menu">
+                    <span></span><span></span><span></span>
+                 </button>
+                 <p class="title">SHOP.CO</p>
+            </div>
+            <div class="header-bart-items">
+                <ul id="header-ul">
+                     <li class="li-items">Shop <span><img src="C:\Users\User\Desktop\unilab-photos\Vecto1r.png" alt="arrow-pic"></span></li> <li class="li-items">On Sale</li>
+                     <li class="li-items">New Arrivales</li>
+                     <li class="li-items">Brands</li>
+                 </ul>
+            </div>
+            <div class="header-bart-items">
+                 <form action="/search" method="get" class="search-form">
+                     <input type="text" id="search-bar" name="query" placeholder="Search for products...">
+                 </form>
+                 <button id="mobile-search-btn" class="icons" aria-label="Search">
+                     <img src="placeholder-search.svg" alt="search-icon"> </button>
+            </div>
+            <div class="header-bart-items">
+                 <div id="icon-wrapper">
+                     <img src="C:\Users\User\Desktop\unilab-photos\Frame1.png" alt="cart-icon" class="icons"> 
+                     <img src="C:\Users\User\Desktop\unilab-photos\Frame2.png" alt="authorization-icon" class="icons"> </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="product-detail-page container"> <nav aria-label="Breadcrumb" class="breadcrumbs">
+             <ol>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="#">Shop</a></li>
+                 <li><a href="#">Men</a></li>
+                 <li><span>T-Shirt</span></li> </ol>
+         </nav>
+
+        <section class="product-display-area">
+            <div class="product-gallery">
+                <div class="thumbnails">
+                    <img src="C:\Users\User\Desktop\unilab-photos\image 1.png" alt="T-shirt thumbnail 1" class="thumbnail-active">
+                    <img src="C:\Users\User\Desktop\unilab-photos\image 5.png" alt="T-shirt thumbnail 2" class="thumbnail">
+                    <img src="C:\Users\User\Desktop\unilab-photos\image 6.png" alt="T-shirt thumbnail 3" class="thumbnail">
+                </div>
+                <div class="main-image">
+                    <img src="C:\Users\User\Desktop\unilab-photos\image 1.png" alt="One Life Graphic T-shirt" id="main-product-image"> </div>
+            </div>
+
+            <div class="product-info">
+                <h1 class="product-title">One Life Graphic T-shirt</h1> <div class="product-rating">
+                    <span class="stars">★★★★☆</span> <span class="rating-value">4.5/5</span>
+                </div>
+                <div class="product-price">
+                    <span class="current-price">$260</span> <span class="original-price">$300</span> <span class="discount-badge">-40%</span> </div>
+                <p class="product-description">
+                    This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.
+                </p> <hr class="divider"> <div class="product-options">
+                    <div class="option-group">
+                         <label>Select Colors</label> <div class="color-swatches">
+                             <button class="swatch" style="background-color: #4F463D;" aria-label="Color Brown"></button> <button class="swatch active" style="background-color: #314F4A;" aria-label="Color Green"></button> <button class="swatch" style="background-color: #31344F;" aria-label="Color Blue"></button> </div>
+                    </div>
+
+                     <hr class="divider"> <div class="option-group">
+                        <label>Choose Size</label> <div class="size-selector">
+                            <button class="size-button">Small</button>
+                            <button class="size-button">Medium</button>
+                            <button class="size-button active">Large</button> <button class="size-button">X-Large</button>
+                        </div>
+                    </div>
+                </div>
+
+                 <hr class="divider"> <div class="product-actions">
+                    <div class="quantity-selector">
+                        <button class="quantity-btn minus" aria-label="Decrease Quantity">-</button>
+                        <input type="number" value="1" min="1" aria-label="Quantity">
+                        <button class="quantity-btn plus" aria-label="Increase Quantity">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-tabs-section">
+             <div class="tabs-nav">
+                 <button class="tab-link" data-tab="product-details">Product Details</button>
+                 <button class="tab-link active" data-tab="rating-reviews">Rating & Reviews</button> <button class="tab-link" data-tab="faqs">FAQs</button>
+             </div>
+             <div class="tabs-content">
+                 <div id="product-details" class="tab-content">
+                     <p>Detailed description about the product features, materials, care instructions, etc. would go here.</p>
+                     </div>
+                 <div id="rating-reviews" class="tab-content active">
+                     <div class="reviews-header">
+                         <h3>All Reviews <span class="review-count">(451)</span></h3>
+                         <button class="write-review-btn">Write a Review</button>
+                         </div>
+                     <div class="review-list">
+                         <div class="review-card">
+                             <div class="review-card-header">
+                                <span class="stars">★★★★★</span>
+                                <span class="reviewer-name">Samantha D. 
+                                    <img src="C:\Users\User\Desktop\unilab-photos\Vecto1234r.png" alt="Verified" class="ptichla">
+                                </span>
+                             </div>
+                             <p class="review-text">"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+                             <span class="review-date">Posted on August 14, 2023</span>
+                         </div>
+                         <div class="review-card">
+                             <div class="review-card-header">
+                                <span class="stars">★★★★☆</span>
+                                <span class="reviewer-name">Alex M.
+                                     <img src="C:\Users\User\Desktop\unilab-photos\Vecto1234r.png" alt="Verified" class="ptichla">
+                                    </span>
+                             </div>
+                             <p class="review-text">
+                                "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+
+                             </p>
+                             <span class="review-date">
+                                Posted on August 16, 2023
+                            </span>
+                         </div>
+                          <div class="review-card">
+                             <div class="review-card-header">
+                                <span class="stars">★★★★★</span>
+                                <span class="reviewer-name">Ethan R. <img src="C:\Users\User\Desktop\unilab-photos\Vecto1234r.png" alt="Verified" class="ptichla"></span>
+                             </div>
+                             <p class="review-text">"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."</p>
+                             <span class="review-date">Posted on August 18, 2023</span>
+                         </div>
+                          <div class="review-card">
+                             <div class="review-card-header">
+                                <span class="stars">★★★★☆</span>
+                                <span class="reviewer-name>Ava H. <img src="placeholder-verified.svg" alt="Verified" class="ptichla"></span>
+                             </div>
+                             <p class="review-text">"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."</p>
+                             <span class="review-date">Posted on August 19, 2023</span>
+                         </div>
+                         </div>
+                     <div class="view-all-container">
+                        <button id="load-more-reviews-btn" class="all-btn">Load More Reviews</button>
+                     </div>
+                 </div>
+                 <div id="faqs" class="tab-content">
+                     <p>Frequently Asked Questions content would go here.</p>
+                     </div>
+             </div>
+         </section>
+
+        <section class="related-products">
+            <h3>You Might Also Like</h3>
+            <div id="related-items-grid"> <div class="items">
+                    <a href="product-detail.html"> 
+                        <img src="C:\Users\User\Desktop\unilab-photos\Frame 342.png" alt="Polo with Contrast Trims" class="item-img"> 
+                        <p class="img-p">Polo with Contrast Trims</p>
+                        <img src="C:\Users\User\Desktop\unilab-photos\Frame 319.png" alt="Rating 4.5" class="rating">
+                         <p class="prices">$212
+                             <span id="grey-numbers">$242</span>
+                        </p>
+                    </a>
+                 </div>
+                 <div class="items">
+                     <a href="product-detail.html">
+                        <img src="C:\Users\User\Desktop\unilab-photos\Frame 338.png" alt="Gradient Graphic T-shirt" class="item-img">
+                        <p class="img-p">Gradient Graphic T-shirt</p>
+                        <img src="C:\Users\User\Desktop\unilab-photos\Frame 319.png" alt="Rating 3.5" class="rating">
+                        <p class="prices">$145</p>
+                    </a>
+                 </div>
+                 <div class="items">
+                     <a href="product-detail.html">
+                        <img src="C:\Users\User\Desktop\unilab-photos\Frame 138.png" alt="Polo with Tipping Details" class="item-img">
+                        <p class="img-p">Polo with Tipping Details</p>
+                        <img src="C:\Users\User\Desktop\unilab-photos\Frame 319.png" alt="Rating 4.5" class="rating">
+                        <p class="prices">$180</p>
+                    </a>
+                 </div>
+                 <div class="items">
+                     <a href="product-detail.html">
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame 134.png" alt="Black Striped T-shirt" class="item-img">
+                         <p class="img-p">Black Striped T-shirt</p>
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame 319.png" alt="Rating 5.0" class="rating">
+                         <p class="prices">$120 <span id="grey-numbers">$150</span></p>
+                         </a>
+                 </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+         <div id="footer-wrapper">
+             <div class="mini-flexboxes">
+                 <p class="title">SHOP.CO</p>
+                 <p id="title-p"> We have clothes that suits your style and <br> which you're proud to wear. From <br> women to men. </p>
+                 <div id="img-wrapper"> 
+                    <img src="C:\Users\User\Desktop\unilab-photos\1.png" alt="twitter" class="social-media"> 
+                    <img src="C:\Users\User\Desktop\unilab-photos\2.png" alt="facebook" class="social-media"> 
+                    <img src="C:\Users\User\Desktop\unilab-photos\3.png" alt="instagram" class="social-media">
+                     <img src="C:\Users\User\Desktop\unilab-photos\4.png" alt="github" class="social-media"> 
+                    </div>
+             </div>
+             <div class="mini-flexboxes">
+                 <ul class="footer-ul">
+                     <li class="ul-items-1">COMPANY</li>
+                     <li class="ul-items">About</li>
+                     <li class="ul-items">Features</li>
+                     <li class="ul-items">Works</li>
+                     <li class="ul-items">Career</li>
+                 </ul>
+             </div>
+             <div class="mini-flexboxes">
+                 <ul class="footer-ul">
+                     <li class="ul-items-1">HELP</li>
+                     <li class="ul-items">Customer Support</li>
+                     <li class="ul-items">Delivery Details</li>
+                     <li class="ul-items">Terms & Conditions</li>
+                     <li class="ul-items">Privacy Policy</li>
+                 </ul>
+             </div>
+             <div class="mini-flexboxes">
+                 <ul class="footer-ul">
+                     <li class="ul-items-1">FAQ</li>
+                     <li class="ul-items">Account</li>
+                     <li class="ul-items">Manage Deliveries</li>
+                     <li class="ul-items">Orders</li>
+                     <li class="ul-items">Payments</li>
+                 </ul>
+             </div>
+             <div class="mini-flexboxes">
+                 <ul class="footer-ul">
+                     <li class="ul-items-1">RESOURCES</li>
+                     <li class="ul-items">Free eBooks</li>
+                     <li class="ul-items">Development Tutorial</li>
+                     <li class="ul-items">How to - Blog</li>
+                     <li class="ul-items">Youtube Playlist</li>
+                 </ul>
+             </div>
+         </div>
+         <hr id="line"> <div id="bolo-wrapper">
+             <p>Shop.co © 2000-2023, All Rights Reserved</p>
+             <div id="img-wrapper"> 
+                 <img src="C:\Users\User\Desktop\unilab-photos\Frame 53.png" alt="mastercard" class="social-media"> 
+               
+                </div>
+         </div>
+     </footer>
+
+    <script src="script.js"></script> </body>
+</html>
