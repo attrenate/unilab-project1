@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="index.css">
+     </head>
+     <body>
+         <aside id="mobile-sidebar" class="sidebar">
+             <div class="sidebar-header">
+                 <button id="sidebar-close-btn" aria-label="Close Menu">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                         <line x1="18" y1="6" x2="6" y2="18"></line>
+                         <line x1="6" y1="6" x2="18" y2="18"></line>
+                     </svg>
+                 </button>
+             </div>
+             <nav class="sidebar-nav">
+                 <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">About</a></li>
+                     <li class="menu-item-has-children">
+                         <a href="#">Services</a>
+                         <span class="caret-down">▼</span>
+                         </li>
+                     <li class="menu-item-has-children">
+                          <a href="#">Pages</a>
+                          <span class="caret-up">▲</span>
+                          <ul class="sub-menu pages-submenu active">
+                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">About Company</a></li>
+                              <li><a href="#">Payment Gateway</a></li>
+                              <li><a href="#">Terms & Conditions</a></li>
+                          </ul>
+                     </li>
+                      <li>
+                        <a href="#">Shop</a></li> <li><a href="#">Testimonials</a></li>
+                 </ul>
+             </nav>
+             <div class="sidebar-footer">
+                 <button class="sidebar-button">Sign Up Now</button>
+             </div>
+         </aside>
+         
+         <div id="sidebar-overlay" class="overlay"></div>
+         <!-- Main Header Section -->
+         <header>
+             <!-- Promo Banner with Sign Up Offer -->
+             <div id="promo-wrapper">
+                 <div></div>
+                 <div id="promo">
+                     <p id="promo-p">Sign up and get 20% off to your first order. <a href="sign-up.html"><span id="underlined">Sign Up Now</span></a></p>
+                 </div>
+                 <div>
+                     <img src="C:\Users\User\Desktop\unilab-photos\Vector.png" alt="X-photo">
+                 </div>
+             </div>
+ 
+             <!-- Main Navigation Bar -->
+             <nav id="header-bar">
+                 <div class="header-bart-items">
+                     <p class="title">SHOP.CO</p>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmwMv4jvG1SpZlyllnb72-09zeL-BdcDwuIg&s" alt="sidebar-icon" class="header-icon">
+                 </div>
+                 <button id="mobile-menu-btn" class="hamburger">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                 </button>
+                 <div class="header-bart-items">
+                     <ul id="header-ul">
+                         <li class="li-items">Shop <span><img src="C:\Users\User\Desktop\unilab-photos\Vecto1r.png" alt="arrow-pic"></span></li>
+                         <li class="li-items">On Sale</li>
+                         <li class="li-items">New Arrivales</li>
+                         <li class="li-items">Brands</li>
+                     </ul>
+                 </div>
+                 <div class="header-bart-items">
+                     <form action="/search" method="get">
+                         <input type="text" id="search-bar" name="query" placeholder="Search for products">
+                     </form>
+                     <button id="mobile-search-btn" class="icons">
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame.png" alt="search-icon">
+                     </button>
+                 </div>
+                 <div class="header-bart-items">
+                     <div id="icon-wrapper">
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame1.png" alt="cart-icon" class="icons">
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame2.png" alt="authorization-icon" class="icons">
+                     </div>
+                 </div>
+             </nav>
+ 
+             <!-- Hero Section with Main Heading and CTA -->
+             <section id="header-wrapper">
+                 <div class="wrappers">
+                     <div class="wrappers-childs">
+                         <h1>
+                             FIND CLOTHES <br>THAT MATCHES <br>YOUR STYLE
+                         </h1>
+                     </div>
+                     <div class="wrappers-childs">
+                         <p id="h1-p">Browse through our diverse range of meticulously crafted garments, designed <br>to bring out your individuality and cater to your sense of style.</p>
+                     </div>
+                     <div class="wrappers-childs">
+                         <button id="shop-btn">Shop Now</button>
+                     </div>
+                     <!-- Statistics Section -->
+                     <div id="wrappers-childs">
+                         <span class="numbers">
+                             200+ <br>
+                             <p class="span-p">International Brands</p>
+                         </span>
+                         <span class="numbers"><br>2000+ <br>
+                             <p class="span-p">High-Quality Products</p>
+                         </span>
+                         <span class="numbers"><br>30 000+ <br>
+                             <p class="span-p">Happy Customers</p>
+                             <br>
+                         </span>
+                     </div>
+                 </div>
+                 <div class="wrappers">
+                     <img src="C:\Users\User\Desktop\unilab-photos\b26fea69ccfd8aa5825862cdb9604a4fb4930464.jpg" alt="happy-couple" id="happy-couple-pic">
+                 </div>
+             </section>
+             <!-- Brand Partners Section -->
+             <section id="header-footer">
+                <img src="C:\Users\User\Desktop\unilab-photos\Vecto11r.png" alt="Versache-logo" class="logo">
+                <img src="C:\Users\User\Desktop\unilab-photos\zara-logo-1 1.png" alt="zara-logo" class="logo">
+                <img src="C:\Users\User\Desktop\unilab-photos\gucci-logo-1 1.png" alt="gucci-logo" class="logo">
+                <img src="C:\Users\User\Desktop\unilab-photos\prada-logo-1 1.png" alt="prada-logo" class="logo">
+                <img src="C:\Users\User\Desktop\unilab-photos\Group.png" alt="Calvin-klein-logo" class="logo">
+             </section>
+         </header>
+ 
+ 
+         <!-- Main Content Section -->
+         <main>
+            <!-- New Arrivals Section -->
+            <section>
+                <h2>
+                    New Arrivals
+                </h2>
+ 
+                <section id="Arrivals">
+                    <a href="products-detail.html" class="product-link">
+                        <div class="items">
+                            <img src="C:\Users\User\Desktop\unilab-photos\Frame 32.png" alt="shirt-pic" class="item-img">
+                            <p class="img-p">T-SHIRT WITH TAPE DETAILS</p>
+                            <img src="C:\Users\User\Desktop\unilab-photos\Frame 35.png" alt="stars-img" class="rating">
+                            <p class="price">$120</p>
+                        </div>
+                    </a>
+                    <a href="products-detail.html" class="product-link">
+                        <div class="items">
+                            <img src="C:\Users\User\Desktop\unilab-photos\Frame 33.png" alt="jeans-pic" class="item-img">
+                            <p class="img-p">SKINNY FIT JEANS</p>
+                            <img src="C:\Users\User\Desktop\unilab-photos\Frame 39.png" alt="stars-img" class="rating">
+                            <p class="prices">$240 <span id="grey-numbers">$260</span> <span class="discount-badge">-20%</span></p>
+                        </div>
+                    </a>
+                    <a href="products-detail.html" class="product-link">
+                        <div class="items">
+                            <img src="C:\Users\User\Desktop\unilab-photos\Frame 34.png" alt="perangi" class="item-img">
+                            <p class="img-p">CHECKERED SHIRT</p>
+                            <img src="C:\Users\User\Desktop\unilab-photos\Frame 40.png" alt="stars-img" class="rating">
+                            <p class="prices">$180 <span id="grey-numbers">$200</span> <span class="discount-badge">-10%</span></p>
+                        </div>
+                    </a>
+                    <a href="products-detail.html" class="product-link">
+                        <div class="items">
+                            <img src="C:\Users\User\Desktop\unilab-photos\Frame 38.png" alt="another-shirt-pic" class="item-img">
+                            <p class="img-p">SLEEVE STRIPED T-SHIRT</p>
+                            <img src="C:\Users\User\Desktop\unilab-photos\Frame 41.png" alt="stars-img" class="rating">
+                            <p class="price">$160</p>
+                        </div>
+                    </a>
+                </section>
+ 
+                 <button id="all-btn">
+                     View All
+                 </button>
+            </section>
+ 
+            <!-- Top Selling Section -->
+            <section>
+             <h3>
+                 TOP SELLING
+             </h3>
+             <section id="sellings">
+                 <a href="products-detail.html" class="product-link">
+                     <div class="items">
+                         <img src="C:\Users\User\Desktop\unilab-photos\frame312.png" alt="perangi" class="item-img">
+                         <p class="img-p">VERTICAL STRIPED SHIRT</p>
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame 351.png" alt="ratings-starts" class="rating">
+                         <p class="prices">$212 <span id="grey-numbers">$232</span> <span class="discount-badge">-8%</span></p>
+                     </div>
+                 </a>
+                 <a href="products-detail.html" class="product-link">
+                     <div class="items">
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame 333.png" alt="maisuri" class="item-img">
+                         <p class="img-p">COURAGE GRAPHIC T-SHIRT</p>
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame 319.png" alt="ratings-starts" class="rating">
+                         <p class="price">$145</p>
+                     </div>
+                 </a>
+                 <a href="products-detail.html" class="product-link">
+                     <div class="items">
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame 341.png" alt="jorts" class="item-img">
+                         <p class="img-p">LOOSE FIT BERMUDA SHORTS</p>
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame 401.png" alt="ratings-starts" class="rating">
+                         <p class="price">$80</p>
+                     </div>
+                 </a>
+                 <a href="products-detail.html" class="product-link">
+                     <div class="items">
+                         <img src="C:\Users\User\Desktop\unilab-photos\F8rame 38.png" alt="black-jeans" class="item-img">
+                         <p class="img-p">FADED SKINNY JEANS</p>
+                         <img src="C:\Users\User\Desktop\unilab-photos\Frame 351.png" alt="ratings-starts" class="rating">
+                         <p class="price">$210</p>
+                     </div>
+                 </a>
+             </section>
+             <button id="all-btn">
+                 View All
+             </button>
+            </section>
+ 
+            <!-- Dress Styles Section -->
+            <section id="dress-styles">
+             <h4>
+                 BROWSE BY DRESS STYLE
+             </h4>
+             <div class="photo-wrapper">
+                 <img src="C:\Users\User\Desktop\unilab-photos\Frame 61.png" alt="casual clothes">
+                 <img src="C:\Users\User\Desktop\unilab-photos\Frame 62.png" alt="formal clothes">
+             </div>
+             <div class="photo-wrapper">
+                 <img src="C:\Users\User\Desktop\unilab-photos\Frame 64.png" alt="party section">
+                 <img src="C:\Users\User\Desktop\unilab-photos\Frame 63.png" alt="Gym section">
+             </div>
+            </section>
+ 
+            <!-- Customer Reviews Section -->
+            <section id="reviews">
+             <h5>
+                 OUR HAPPY CUSTOMERS
+             </h5>
+             <div id="comments-wrapper">
+                 <div class="comments"> 
+                     <img src="C:\Users\User\Desktop\unilab-photos\Frame 10.png" alt="rating" class="stars">
+                     <span class="names">Sarah M.<img src="C:\Users\User\Desktop\unilab-photos\Vecto1234r.png" alt="ptichka" class="ptichla"></span>
+                     <p class="comments-p">"I'm blown away by the quality and style of the <br> clothes I received from Shop.co. From casual <br> wear to elegant dresses, every piece I've bought <br> has exceeded my expectations."</p>
+                 </div>
+                 <div class="comments">
+                     <img src="C:\Users\User\Desktop\unilab-photos\Frame 10.png" alt="rating" class="stars">
+                     <span class="names">Alex K.<img src="C:\Users\User\Desktop\unilab-photos\Vecto1234r.png" alt="ptichka" class="ptichla"></span>
+                     <p class="comments-p">"Finding clothes that align with my personal <br> style used to be a challenge until I discovered <br> Shop.co. The range of options they offer is truly <br> remarkable, catering to a variety of tastes and occasions."</p>
+                 </div>
+                 <div class="comments">
+                     <img src="C:\Users\User\Desktop\unilab-photos\Frame 10.png" alt="rating" class="stars">
+                     <span class="names">James L.<img src="C:\Users\User\Desktop\unilab-photos\Vecto1234r.png" alt="ptichka" class="ptichla"></span>
+                     <p class="comments-p">"As someone who's always on the lookout for <br> unique fashion pieces, I'm thrilled to have <br> stumbled upon Shop.co. The selection of <br> clothes is not only diverse but also on-point with the latest trends."</p>
+                 </div>
+             </div>
+            </section>
+ 
+            <!-- Newsletter Subscription Section -->
+            <section id="ntf">
+             <div id="text-wrapper">
+                 <div class="texts">
+                     <p id="texts-p">STAY UPTO DATE ABOUT <br> OUR LATEST OFFERS</p>
+                 </div>
+                 <div class="texts">
+                     <div id="btn-wrapper">
+                         <button class="txt-btn">
+                             Enter your email address
+                         </button>
+                         <button class="txt-btn">
+                             Subscribe to Newsletter
+                         </button>
+                     </div>
+                 </div>
+             </div>
+            </section>
+         </main>
+ 
+         <!-- Footer Section -->
+         <footer>
+             <div id="footer-wrapper">
+                 <div class="mini-flexboxes">
+                     <p class="title">SHOP.CO</p>
+                     <p id="title-p">
+                         We have clothes that suits your style and <br> which you're proud to wear. From <br> women to men.
+                     </p>
+                     <div id="img-wrapper">
+                         <img src="C:\Users\User\Desktop\unilab-photos\1.png" alt="twitter" class="social-media">
+                         <img src="C:\Users\User\Desktop\unilab-photos\2.png" alt="facebook" class="social-media">
+                         <img src="C:\Users\User\Desktop\unilab-photos\3.png" alt="instagram" class="social-media">
+                         <img src="C:\Users\User\Desktop\unilab-photos\4.png" alt="github" class="social-media">
+                     </div>
+                 </div>
+                 <div class="mini-flexboxes">
+                     <ul class="footer-ul">
+                         <li class="ul-items-1">COMPANY</li>
+                         <li class="ul-items">About</li>
+                         <li class="ul-items">features</li>
+                         <li class="ul-items">Works</li>
+                         <li class="ul-items">Career</li>
+                     </ul>
+                 </div>
+                 <div class="mini-flexboxes">
+                     <ul class="footer-ul">
+                         <li class="ul-items-1">HELP</li>
+                         <li class="ul-items">Customer Support</li>
+                         <li class="ul-items">Delivery Details</li>
+                         <li class="ul-items">Terms & Conditions</li>
+                         <li class="ul-items">Privacy Police</li>
+                     </ul>
+                 </div>
+                 <div class="mini-flexboxes">
+                     <ul class="footer-ul">
+                         <li class="ul-items-1">FAQ</li>
+                         <li class="ul-items">Account</li>
+                         <li class="ul-items">Manage Deliveries</li>
+                         <li class="ul-items">Orders</li>
+                         <li class="ul-items">Payments</li>
+                     </ul>
+                 </div>
+                 <div class="mini-flexboxes">
+                     <ul class="footer-ul">
+                         <li class="ul-items-1">RESOURCES</li>
+                         <li class="ul-items">Free eBooks</li>
+                         <li class="ul-items">Development Tutorial</li>
+                         <li class="ul-items">How to - Blog</li>
+                         <li class="ul-items">Youtube Playlist</li>
+                     </ul>
+                 </div>
+             </div>
+             <div id="line"></div>
+             <div id="bolo-wrapper">
+                 <p>Shop.co © 2000-2023, All Rights Reserved</p>
+                 <div id="img-wrapper">
+                     <img src="C:\Users\User\Desktop\unilab-photos\Visa.png" alt="visa" class="social-media">
+                     
+                 </div>
+             </div>
+         </footer>
+         <script src="script.js"></script>
+     </body>
+</html>
