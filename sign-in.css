@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; /* System font stack */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding-top: 40px; /* Add more space at the top */
+    padding-bottom: 40px;
+}
+
+.login-container {
+    position: relative;
+    width: 700px;
+    max-width: 100%; /* Ensure it doesn't overflow small screens */
+    min-height: 1024px; /* Minimum height */
+    height: auto; /* Allow height to adjust */
+    background-color: rgb(255, 255, 255);
+    overflow: hidden; /* Keep overflow hidden */
+    display: flex; /* Use flex to help center content */
+    justify-content: center; /* Center child frame */
+    padding: 20px; /* Add padding */
+}
+
+.main-content-frame {
+    position: relative; /* Change from absolute */
+    /* left: -27px; No longer needed with flex centering */
+    /* top: 0px; */
+    width: 754px;
+    max-width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 100px; 
+    padding-bottom: 100px;
+}
+
+.login-form-area {
+    position: relative; 
+    width: 554px;
+    max-width: 100%;
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px; 
+    align-items: flex-start; 
+}
+
+.header-section {
+    width: auto; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome-back-text {
+    
+    width: auto;
+    
+    height: auto;
+    color: rgba(4, 3, 8, 1);
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2; /* Adjusts line height */
+}
+
+.signup-prompt-text {
+    
+    width: auto;
+    
+    height: auto;
+    color: rgba(4, 3, 8, 0.7);
+    font-size: 16px;
+    line-height: 1.4;
+}
+.signup-prompt-text a {
+    color: rgba(4, 3, 8, 1);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.signup-prompt-text a:hover {
+     color: #555;
+}
+
+.form-and-social-section {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-fields-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-wrapper {
+    width: 100%;
+    height: 49px;
+    border: 1px solid rgba(4, 3, 8, 0.6);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 15px; 
+    gap: 10px;
+    position: relative;
+}
+
+.input-wrapper input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 100%;
+    font-size: 16px;
+    color: rgba(4, 3, 8, 1);
+    padding-top: 14px;
+}
+
+.input-wrapper .placeholder-label {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(4, 3, 8, 0.4);
+    font-size: 16px;
+    line-height: 19px;
+    pointer-events: none;
+    transition: all 0.2s ease-out;
+}
+
+/* Floating label effect */
+ .input-wrapper input:focus + .placeholder-label,
+ .input-wrapper input:not(:placeholder-shown) + .placeholder-label {
+    top: 10px; 
+    font-size: 12px; 
+    color: rgba(4, 3, 8, 0.6);
+ }
+
+
+.icon-container {
+    width: 24px; /* Slightly larger tap target */
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.password-visibility-icon-container {
+     color: rgba(4, 3, 8, 0.6);
+}
+.password-visibility-icon-container:hover {
+     color: rgba(4, 3, 8, 1);
+}
+
+.icon-placeholder {
+    font-size: 18px; /* Adjusts icon size */
+}
+
+.forgot-password-wrapper {
+    width: 100%;
+    
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -10px; /* Pulls closer to password field */
+}
+
+.forgot-password-link {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    line-height: 1.4;
+    text-decoration: none;
+}
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+
+.button {
+    width: 100%;
+    height: 49px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s, opacity 0.2s;
+    font-size: 16px;
+    font-weight: 500; 
+    border: none; 
+}
+.button:hover {
+    opacity: 0.85;
+}
+
+
+.button-primary {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.button-primary .button-text {
+    color: inherit; 
+    font-weight: bold;
+}
+
+.separator-social-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.or-separator-container {
+    width: 100%;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.separator-line {
+    height: 1px;
+    background-color: rgba(4, 3, 8, 0.2); 
+    flex-grow: 1;
+}
+
+.or-text {
+    color: rgba(4, 3, 8, 0.6); 
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase; 
+}
+
+.social-buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-social {
+    border: 1px solid rgba(4, 3, 8, 0.4); 
+    background-color: transparent;
+    color: rgb(4, 3, 8);
+}
+.button-social:hover {
+    background-color: rgba(4, 3, 8, 0.03); 
+    border-color: rgba(4, 3, 8, 0.6);
+    opacity: 1; 
+}
+
+.google-icon-placeholder {
+    font-weight: bold;
+    background: linear-gradient(45deg, #4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    width: 19px; 
+    height: 19px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-icon-placeholder {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    line-height: 1; 
+    width: 19px; 
+    height: 19px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.social-button-text {
+    color: inherit; 
+    font-weight: 500;
+}
