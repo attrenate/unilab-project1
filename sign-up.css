@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#acc-wrapper{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+#login{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
