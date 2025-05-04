@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
 #acc-wrapper{
     margin-top: 5rem;
     display: flex;
@@ -18,4 +25,51 @@ h1{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+}
+#input-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#names{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+#firstName, #lastName{
+    width: 262px;
+    height: 49px;
+    border-radius: 5px;
+    border-color: gray;
+}
+#gmail, #password{
+    width: 100%;
+    max-width: 500px;
+    height: 49px;
+    border-radius: 5px;
+    border-color: gray;
+    margin-bottom: 1rem;
+}
+#google, #apple {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+#button-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.reg-btn{
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 554px;
+    height: 49px;
+    border-color: grey;
 }
