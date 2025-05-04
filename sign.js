@@ -1,4 +1,4 @@
- // Basic password visibility toggle
+ // password visibility toggle
  const toggleButton = document.getElementById('password-visibility-toggle');
  const passwordInput = document.getElementById('password-input');
  const icon = document.getElementById('password-visibility-icon');
