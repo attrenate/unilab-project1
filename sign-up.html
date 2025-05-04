@@ -1,30 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="sign-up.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-up.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Create Account</title>
+</head>
+<body>
+    <div id="signup-container">
         <div id="acc-wrapper">
+            <h1>Create account</h1>
+            <p id="login">Already have an account? <a href="#">Login</a></p> </div>
 
-            <h1>Create Account</h1>
-            <p id="logn">Already have an account? Login</p>
-        </div>
-        <div id="inputs-wrapper">
-            <div id="names">
-
-                <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
-                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+        <div id="form-wrapper">
+            <div id="inputs-section">
+                <div id="names">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                </div>
+                <input type="email" id="email" name="email" placeholder="Email" required> <div class="password-wrapper"> <input type="password" id="password" name="password" placeholder="Password" required>
+                   </div>
+                <div id="terms-wrapper">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms" id="terms-text">I agree to DopeSass Terms of service and Privacy policy</label>
+                </div>
             </div>
-            <input type="text" id="gmail" name="Gmail" placeholder="Gmail" required>
-            <input type="text" id="password" name="password" placeholder="Password" required>
+
+            <button id="create-btn" class="btn">Create Account</button>
+
+            <div id="separator">
+                <div class="line"></div>
+                <span>or</span>
+                <div class="line"></div>
+            </div>
+
+            <div id="social-buttons">
+                <button class="social-btn btn">
+                    <img src="C:\Users\User\Desktop\unilab-photos\Google - Original.png" alt="google-logo" id="google-logo">
+                    Continue with Google
+                </button>
+                <button class="social-btn btn">
+                    <img src="C:\Users\User\Desktop\unilab-photos\Apple - Original.png" alt="apple-logo" id="apple-logo">
+                    Continue with Apple
+                </button>
+            </div>
         </div>
-        <div id="button-wrapper">
-           <p id="input-p"><input type="checkbox"> I agree to DopeSass Terms of service and Privacy policy</p> 
-           <button class="reg-btn"><img src="C:\Users\User\Desktop\unilab-photos\Google - Original.png" alt="google-logo" id="google">Continue with Google</button>
-           <button class="reg-btn"><img src="C:\Users\User\Desktop\unilab-photos\Apple - Original.png" alt="apple-logo" id="apple">Continue with Apple</button>
-            
-        </div>
-    </body>
+    </div>
+</body>
 </html>
