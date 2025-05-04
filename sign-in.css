@@ -11,27 +11,26 @@ body {
     align-items: flex-start;
     min-height: 100vh;
     background-color: #f0f0f0;
-    padding-top: 40px; /* Add more space at the top */
+    padding-top: 40px; /* Adds more space at the top */
     padding-bottom: 40px;
 }
 
 .login-container {
     position: relative;
     width: 700px;
-    max-width: 100%; /* Ensure it doesn't overflow small screens */
-    min-height: 1024px; /* Minimum height */
-    height: auto; /* Allow height to adjust */
+    max-width: 100%; /* Ensures it doesn't overflow small screens */
+    min-height: 1024px; 
+    height: auto; 
     background-color: rgb(255, 255, 255);
-    overflow: hidden; /* Keep overflow hidden */
-    display: flex; /* Use flex to help center content */
-    justify-content: center; /* Center child frame */
-    padding: 20px; /* Add padding */
+    overflow: hidden; /* Keeps overflow hidden */
+    display: flex; 
+    justify-content: center; 
+    padding: 20px;
 }
 
 .main-content-frame {
-    position: relative; /* Change from absolute */
-    /* left: -27px; No longer needed with flex centering */
-    /* top: 0px; */
+    position: relative; 
+    
     width: 754px;
     max-width: 100%;
     height: auto; 
